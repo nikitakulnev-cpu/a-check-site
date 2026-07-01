@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Курс по диагностике BMW в ISTA | AutotechNik</title>
+    <meta
+      name="description"
+      content="Практический курс по работе с оригинальным программным обеспечением ISTA для диагностики автомобилей BMW: подключение, ошибки, планы проверок, сервисные функции, измеряемые величины и экспертный режим."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="AutotechNik">
+        <span class="brand-mark">A</span>
+        <span>
+          <strong>AutotechNik</strong>
+          <small>Диагностика BMW</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#who">Для кого</a>
+        <a href="#program">Программа</a>
+        <a href="#author">Автор</a>
+        <a href="#price">Стоимость</a>
+      </nav>
+      <a class="header-cta" href="#order">Записаться</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Онлайн-курс</p>
+          <h1>BMW ISTA</h1>
+          <p class="ista-caption">Integrated Service Technical Application</p>
+          <p class="lead">
+            Практический курс по работе с дилерским программным обеспечением
+            ISTA для диагностики автомобилей BMW.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#order">Оставить заявку</a>
+            <a class="button secondary" href="#program">Смотреть программу</a>
+          </div>
+          <div class="hero-specs" aria-label="Ключевые параметры курса">
+            <div>
+              <span>Автомобили</span>
+              <strong>G-серия</strong>
+            </div>
+            <div>
+              <span>Моторы</span>
+              <strong>B-серия</strong>
+            </div>
+            <div>
+              <span>Среда</span>
+              <strong>ISTA+</strong>
+            </div>
+          </div>
+          <ul class="hero-points" aria-label="Ключевые особенности курса">
+            <li>Фокус курса: дизельные BMW G-серии и B-серия моторов</li>
+            <li>Дизельные N-серии применимы частично, но параметров меньше</li>
+            <li>Только диагностика. Без кодирования и программирования</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-label="Современный BMW в стилистике курса">
+          <img src="assets/hero-bmw-m4-cutout.png" alt="Синий BMW в стилистике курса по ISTA" />
+        </div>
+      </section>
+
+      <section class="section compact" id="problem">
+        <div class="section-heading">
+          <h2 class="wide-title">Диагностика по заводским стандартам BMW</h2>
+          <p>
+            В ISTA заложена логика, по которой автомобиль можно диагностировать
+            как систему, а не как набор отдельных ошибок. В курсе показывается,
+            как пользоваться заводскими инструментами BMW: планами проверок,
+            тест-блоками и функциональными структурами. Такой подход помогает
+            оценивать техническое состояние автомобиля и понимать, где причина
+            неисправности, а где только её проявление.
+          </p>
+        </div>
+        <div class="problem-grid">
+          <article>
+            <h3>План проверки</h3>
+            <p>
+              ISTA не просто показывает список ошибок, а собирает их в
+              диагностический маршрут. План проверки помогает понять
+              последовательность действий и не прыгать хаотично между блоками.
+            </p>
+          </article>
+          <article>
+            <h3>Тест-блоки</h3>
+            <p>
+              Заводские сценарии проверки, которые ведут диагноста по логике
+              производителя: от симптома и ошибки к условиям выполнения,
+              измерениям, контрольным значениям и техническому выводу.
+            </p>
+          </article>
+          <article>
+            <h3>Функциональные структуры</h3>
+            <p>
+              Работа не только по отдельным блокам управления, а по системам:
+              воздух, топливо, EGR, DPF, SCR, питание, подача масла и другие узлы.
+              Это помогает видеть связи между параметрами и неисправностями.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="media-band" aria-label="Визуальные материалы курса">
+        <img class="media-wide" src="assets/ista-laptop-expert-graph.png" alt="Ноутбук с графиком параметров ISTA на экране" />
+        <div class="media-copy">
+          <p class="expert-label">Режим эксперта ISTA</p>
+          <h2>Глубокий анализ параметров, когда стандартной диагностики уже недостаточно</h2>
+          <p>
+            Режим эксперта позволяет смотреть работу автомобиля через графики:
+            наддув, топливо, давление, температуру, сажевый фильтр, плавность
+            работы и другие параметры. В курсе разбирается, как читать эти
+            данные в связке, видеть отклонения и делать технический вывод.
+          </p>
+        </div>
+      </section>
+
+      <section class="section screen-section" aria-label="Скриншоты ISTA из курса">
+        <div class="section-heading">
+          <h2>В уроках разбираются тест-блоки, параметры и графические характеристики</h2>
+          <p>
+            Скриншоты показывают характер материала: заводские проверки,
+            условия выполнения, справочное описание и параметры для анализа.
+          </p>
+        </div>
+        <div class="screen-gallery">
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-01.png" aria-label="Открыть экран проверки тест-блока">
+              <img src="assets/work-screen-new-01.png" alt="Проверка работы узла через тест-блок ISTA" />
+            </button>
+            <figcaption>Проверка работы узла через тест-блок ISTA</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-02.png" aria-label="Открыть экран накопителя ошибок">
+              <img src="assets/work-screen-new-02.png" alt="Накопитель ошибок и переход к плану проверки" />
+            </button>
+            <figcaption>Ошибки и переход к плану проверки</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-03.png" aria-label="Открыть график отклика системы">
+              <img src="assets/work-screen-new-03.png" alt="График отклика системы в тест-блоке ISTA" />
+            </button>
+            <figcaption>График отклика системы в тест-блоке</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-04.png" aria-label="Открыть функциональное описание системы">
+              <img src="assets/work-screen-new-04.png" alt="Функциональное описание системы в ISTA" />
+            </button>
+            <figcaption>Функциональная структура и описание системы</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-05.png" aria-label="Открыть экран индикаторов и схемы">
+              <img src="assets/work-screen-new-05.png" alt="Индикаторы состояния и электрическая схема в ISTA" />
+            </button>
+            <figcaption>Индикаторы состояния и электрическая схема</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-06.png" aria-label="Открыть экран заводского индикатора">
+              <img src="assets/work-screen-new-06.png" alt="Оценка состояния узла по заводскому индикатору ISTA" />
+            </button>
+            <figcaption>Оценка состояния узла по заводскому индикатору</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-07.png" aria-label="Открыть график экспертного режима">
+              <img src="assets/work-screen-new-07.png" alt="Динамика параметров в экспертном режиме ISTA" />
+            </button>
+            <figcaption>Динамика параметров в экспертном режиме</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/ista-multichannel-graph-gallery.png?v=2" aria-label="Открыть многоканальный график">
+              <img src="assets/ista-multichannel-graph-gallery.png?v=2" alt="Многоканальный график параметров в ISTA" />
+            </button>
+            <figcaption>Многоканальный анализ: топливо, обороты, коэффициенты и отклик системы</figcaption>
+          </figure>
+          <figure>
+            <button class="screen-open" type="button" data-full="assets/work-screen-new-09.png" aria-label="Открыть график и справочные данные">
+              <img src="assets/work-screen-new-09.png" alt="График и справочные данные по параметрам ISTA" />
+            </button>
+            <figcaption>График и справочные данные по параметрам</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section audience-section" id="who">
+        <div class="section-heading audience-heading">
+          <div>
+            <p class="eyebrow">Для кого</p>
+            <h2>Курс для тех, кто хочет глубже работать с BMW</h2>
+          </div>
+          <p>
+            Материал рассчитан на тех, кто уже понимает устройство автомобиля и хочет
+            перейти от поверхностного чтения ошибок к нормальной диагностической работе.
+          </p>
+        </div>
+        <div class="audience-layout">
+          <div class="audience-grid">
+            <article>
+              <h3>Автоподборщикам</h3>
+              <p>
+                Чтобы выходить в премиум-сегмент, оценивать техническое состояние
+                BMW и давать клиенту технически обоснованный отчет, а не набор
+                отдельных фотографий ошибок. Сможете не ограничиваться списком
+                ошибок и общими фразами в отчете. Курс помогает смотреть BMW как
+                систему: проверять параметры, понимать логику планов проверок и
+                аргументировать выводы техническим языком.
+              </p>
+            </article>
+            <article>
+              <h3>Владельцам BMW</h3>
+              <p>
+                Чтобы понимать свой автомобиль, меньше зависеть от сервиса и
+                самостоятельно разбираться в диагностических вопросах без лишних
+                поездок и напрасной замены деталей. Вы сможете спокойнее общаться
+                с сервисом и понимать, когда вам предлагают нужную услугу, а когда
+                с вас просто хотят заработать денег. Это особенно полезно, если
+                хотите самостоятельно разбираться в состоянии мотора, экологии и
+                связанных систем.
+              </p>
+            </article>
+            <article>
+              <h3>Сервисам и диагностам</h3>
+              <p>
+                Чтобы усилить направление BMW, уйти от поверхностного чтения ошибок
+                и освоить работу с оригинальной заводской диагностикой. Курс
+                помогает перейти от универсального сканера к работе с заводской
+                средой BMW. Это дает больше глубины в проверках, понятнее связывает
+                ошибки с параметрами и помогает строить более уверенную
+                диагностическую гипотезу.
+              </p>
+            </article>
+            <article>
+              <h3>Всем, кто хочет понять диагностику BMW</h3>
+              <p>
+                Чтобы разобраться, как строится нормальная диагностика по заводским
+                стандартам BMW: от симптома и ошибки к проверкам, параметрам и
+                техническому выводу. Материал подойдет тем, кто уже знаком с
+                устройством автомобиля и хочет понять, как производитель сам
+                предлагает искать неисправности. Здесь акцент не на ремонте с нуля,
+                а на логике проверки, анализе данных и техническом выводе.
+              </p>
+            </article>
+          </div>
+          <div class="audience-photo" aria-label="Диагностика BMW через ISTA в салоне автомобиля">
+            <img src="assets/audience-ista-cabin-vertical.png" alt="Ноутбук с ISTA и диагностический кабель в салоне BMW" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="result">
+        <div>
+          <h2>После курса вы сможете проводить осмысленную диагностику BMW</h2>
+          <p>
+            Курс не делает человека профессиональным диагностом за несколько
+            уроков. Профессионализм приходит через длительную практику. Здесь вы
+            получаете фундамент: как работать с ISTA, как читать заводскую логику
+            проверок и как отличать причину неисправности от следствия.
+          </p>
+        </div>
+        <div class="result-list">
+          <div>Подключаться к автомобилю и уверенно ориентироваться в ISTA</div>
+          <div>Работать с ошибками, фильтрами, планами проверок и тест-блоками</div>
+          <div>Понимать параметры DDE/DME, наддув, топливо, EGR, DPF, SCR и другие параметры</div>
+          <div>Оценивать техническое состояние BMW перед покупкой или ремонтом</div>
+          <div>Использовать сервисные функции, измеряемые величины и экспертный режим ISTA</div>
+        </div>
+      </section>
+
+      <section class="section program-section" id="program">
+        <div class="section-heading">
+          <p class="eyebrow">Программа</p>
+          <h2>В программу курса входят:</h2>
+          <div class="program-stats" aria-label="Состав программы курса">
+            <div><strong>4 раздела</strong></div>
+            <div><strong>44 видео</strong></div>
+            <div><strong>9 часов</strong><span>практического материала</span></div>
+          </div>
+          <p>
+            Программа выстроена от базовой ориентации в ISTA до функциональных структур,
+            сервисных функций и анализа параметров в режиме эксперта. Каждый раздел
+            показывает отдельный уровень работы с заводской диагностикой BMW.
+          </p>
+        </div>
+        <div class="program">
+          <article class="module">
+            <button class="module-toggle" type="button" aria-expanded="true">
+              <span>7 видео · 2 ч 18 мин</span>
+              <strong>Основы работы с ISTA</strong>
+            </button>
+            <div class="module-body">
+              <p>
+                В первом разделе разбирается базовая логика работы с ISTA: как ориентироваться
+                в программе, смотреть блоки управления, читать ошибки, фильтровать информацию,
+                работать с планом проверки и переходить от общей картины автомобиля к конкретным
+                диагностическим действиям.
+              </p>
+              <div class="module-tags">
+                <span>Интерфейс</span>
+                <span>Дерево блоков</span>
+                <span>Параметры DDE</span>
+                <span>План проверки</span>
+                <span>Вакуумная система</span>
+                <span>Вихревые заслонки</span>
+              </div>
+            </div>
+          </article>
+          <article class="module">
+            <button class="module-toggle" type="button" aria-expanded="false">
+              <span>18 видео · 3 ч 27 мин</span>
+              <strong>Функциональные структуры и тест-блоки</strong>
+            </button>
+            <div class="module-body" hidden>
+              <p>
+                Раздел посвящён работе с заводской диагностической логикой BMW: функциональными
+                структурами, тест-блоками, условиями проверок, параметрами и техническими выводами.
+                Здесь разбирается, как ISTA ведёт диагноста по системам автомобиля и помогает
+                связывать симптомы, параметры, датчики и исполнительные механизмы в одну понятную
+                диагностическую картину.
+              </p>
+              <div class="module-tags">
+                <span>Воздух</span>
+                <span>EGR</span>
+                <span>DPF</span>
+                <span>SCR</span>
+                <span>Электропитание</span>
+                <span>Подача масла</span>
+                <span>Форсунки</span>
+                <span>Датчики</span>
+                <span>Симптомы</span>
+              </div>
+            </div>
+          </article>
+          <article class="module">
+            <button class="module-toggle" type="button" aria-expanded="false">
+              <span>8 видео · 48 мин</span>
+              <strong>Сервисные функции</strong>
+            </button>
+            <div class="module-body" hidden>
+              <p>
+                Практическая работа с сервисными функциями ISTA: адаптации, активации, сбросы
+                и корректировки, которые применяются при диагностике и обслуживании BMW.
+                В разделе показано, где находятся нужные функции, в каких случаях они применяются
+                и что важно понимать перед запуском процедуры.
+              </p>
+              <div class="module-tags">
+                <span>Адаптации</span>
+                <span>Активации</span>
+                <span>Сбросы</span>
+                <span>Коррекции</span>
+                <span>CBS</span>
+                <span>ТО</span>
+              </div>
+            </div>
+          </article>
+          <article class="module">
+            <button class="module-toggle" type="button" aria-expanded="false">
+              <span>11 видео · 2 ч 27 мин</span>
+              <strong>Режим эксперта и анализ параметров</strong>
+            </button>
+            <div class="module-body" hidden>
+              <p>
+                Финальный раздел посвящён более глубокому анализу данных через режим эксперта.
+                Здесь разбирается работа с графиками и связкой параметров: запуск, наддув,
+                топливо, подача масла, сажевый фильтр, плавность работы и другие данные.
+                Раздел нужен, чтобы видеть поведение системы в динамике и делать технический вывод.
+              </p>
+              <div class="module-tags">
+                <span>Графики</span>
+                <span>Пуск двигателя</span>
+                <span>Наддув</span>
+                <span>Топливо</span>
+                <span>Подача масла</span>
+                <span>Сажевый фильтр</span>
+                <span>Плавность работы</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section video-context" aria-label="Открытый пример разбора диагностики BMW">
+        <div class="video-copy">
+          <p class="eyebrow">Открытый пример</p>
+          <h2>Формат разбора: почему при диагностике BMW важно работать в ISTA, а не универсальным сканером</h2>
+          <p>
+            В видео показан открытый пример: универсальный сканер может
+            некорректно подписать параметры, дать неверные ориентиры и привести
+            к ошибочному выводу. Для BMW важна родная дилерская среда ISTA,
+            где параметры, проверки и диагностическая логика связаны с
+            заводской документацией.
+          </p>
+          <p>
+            Это не урок из закрытой программы и не повтор темы внутри курса.
+            Это пример подачи материала: разбор показаний, проверка логики и
+            объяснение, почему в диагностике BMW нельзя опираться только на
+            название параметра, список ошибок или универсальный сканер.
+          </p>
+        </div>
+        <div class="video-frame video-link-frame">
+          <a class="video-link-card" href="https://www.youtube.com/watch?v=nAbUbKxplAI" target="_blank" rel="noreferrer">
+            <span class="video-play" aria-hidden="true"></span>
+            <span class="video-link-content">
+              <span class="video-link-label">Видео откроется на YouTube</span>
+              <strong>Посмотреть открытый разбор</strong>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split warning">
+        <div class="warning-copy">
+          <p class="eyebrow">Честные ограничения</p>
+          <h2>Курс охватывает только область диагностики</h2>
+          <div class="warning-visual" aria-label="Дизельные моторы B-серии">
+            <img src="assets/limit-diesel-b-series-blue.png" alt="Дизельные моторы B-серии: BMW, ноутбук с ISTA и диагностический кабель" />
+          </div>
+        </div>
+        <div class="limit-list">
+          <p>Курс не подойдет тем, кто вообще не знаком с устройством автомобиля.</p>
+          <p>Курс не предполагает обучение кодированию, программированию и прошивкам BMW.</p>
+          <p>Основная практическая база курса — дизельный BMW B47 и моторы B-серии: B37, B47, B57.</p>
+          <p>
+            Примеры по бензиновым моторам B-серии в курсе есть, включая тест-блоки
+            и режим эксперта, но их меньше, чем материалов по дизельным BMW.
+          </p>
+          <p>Курс не обещает быстрый заработок без практики и технической базы.</p>
+          <p>
+            Опытным диагностам часть материала может быть знакома, но курс может
+            быть полезен как системный взгляд на заводскую логику ISTA.
+          </p>
+        </div>
+      </section>
+
+      <section class="section author" id="author">
+        <div class="author-photo">
+          <img src="assets/author-schmidt-final.png" alt="Никита AutotechNick у дилерского центра BMW Schmidt" />
+        </div>
+        <div class="author-copy">
+          <p class="eyebrow">Автор курса</p>
+          <h2>Никита AutotechNick</h2>
+          <ul class="check-list">
+            <li>Образование: экспертиза транспортных средств, НГТУ им. Р. Е. Алексеева, Нижний Новгород</li>
+            <li>Обучение в МАДИ по диагностике двигателей внутреннего сгорания</li>
+            <li>YouTube-канал с техническими материалами по Mercedes, BMW и VAG</li>
+            <li>Авторские видео по диагностике двигателя использовались в МАДИ как учебный материал</li>
+          </ul>
+          <div class="socials">
+            <a href="https://t.me/nikitacarsDE" target="_blank" rel="noreferrer">Telegram личный</a>
+            <a href="https://t.me/euroautospot" target="_blank" rel="noreferrer">Telegram-группа</a>
+            <a href="https://www.youtube.com/@Nikita_Sergeievich" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://www.instagram.com/autotechnik152?igsh=MWh6cjRpb3gxbmhjMg%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.avito.ru/profile/rating" target="_blank" rel="noreferrer">Отзывы Avito</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section price" id="price">
+        <div class="price-card">
+          <div>
+            <p class="eyebrow">Стартовая стоимость</p>
+            <h2>25 000 ₽</h2>
+            <p>
+              Один тариф. Стартовый период длится 7 дней. После него цена
+              повышается до 30 000 ₽, затем до 35 000 ₽.
+            </p>
+          </div>
+          <ul class="check-list">
+            <li>Видеоуроки в личном кабинете GetCourse</li>
+            <li>В подарок — ссылка на проверенную версию ISTA 4.53 для диагностики</li>
+            <li>В подарок — жёлтый Ethernet-кабель для диагностики BMW</li>
+            <li>Один тариф без разделения на базовый и расширенный доступ</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section order" id="order">
+        <div class="order-box">
+          <p class="eyebrow">Запись на курс</p>
+          <h2>Оставьте заявку на курс по диагностике BMW в ISTA</h2>
+          <p>
+            Здесь будет встроенная форма GetCourse. Пока кнопка ведет к месту
+            заявки, чтобы структуру сайта можно было проверить до подключения
+            оплаты и юридических документов.
+          </p>
+          <a class="button primary" href="https://www.youtube.com/@Nikita_Sergeievich" target="_blank" rel="noreferrer">
+            Связаться с AutotechNik
+          </a>
+          <small>
+            Перед запуском нужно добавить оферту, политику обработки персональных
+            данных и согласие на обработку данных.
+          </small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>AutotechNik</span>
+      <span>Курс по диагностике BMW в ISTA</span>
+      <a href="#top">Наверх</a>
+    </footer>
+
+    <div class="screen-lightbox" hidden>
+      <button class="screen-lightbox-close" type="button" aria-label="Закрыть увеличенный скриншот">×</button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
