@@ -423,6 +423,7 @@
         <div class="limit-list">
           <p>Курс не подойдет тем, кто вообще не знаком с устройством автомобиля.</p>
           <p>Курс не предполагает обучение кодированию, программированию и прошивкам BMW.</p>
+          <p>Курс не включает предоставление и установку ISTA, а также диагностический кабель. Для обучения используется разбор работы с программой и диагностической логикой.</p>
           <p>Основная практическая база курса — дизельный BMW B47 и моторы B-серии: B37, B47, B57.</p>
           <p>
             Примеры по бензиновым моторам B-серии в курсе есть, включая тест-блоки
@@ -465,35 +466,25 @@
             <p class="eyebrow">Стартовая стоимость</p>
             <h2>25 000 ₽</h2>
             <p>
-              Один тариф. Стартовый период длится 7 дней. После него цена
-              повышается до 30 000 ₽, затем до 35 000 ₽.
+              Один тариф. Стартовая стоимость действует первые 3 дня — 25 000 ₽.
+              После стартового периода цена повышается до 29 000 ₽ и держится 7 дней.
+              Затем финальная стоимость курса — 34 000 ₽. Доступ к материалам
+              предоставляется на 6 месяцев.
             </p>
           </div>
           <ul class="check-list">
             <li>Видеоуроки в личном кабинете GetCourse</li>
-            <li>В подарок — ссылка на проверенную версию ISTA 4.53 для диагностики</li>
-            <li>В подарок — жёлтый Ethernet-кабель для диагностики BMW</li>
-            <li>Один тариф без разделения на базовый и расширенный доступ</li>
+            <li>Один тариф</li>
+            <li>Доступ к материалам на платформе — 6 месяцев</li>
+            <li>Продление доступа при необходимости — 2 000 ₽ за 6 месяцев</li>
+            <li>Практический курс по диагностике BMW в ISTA с акцентом на заводскую логику проверок</li>
           </ul>
         </div>
       </section>
 
       <section class="section order" id="order">
-        <div class="order-box">
-          <p class="eyebrow">Запись на курс</p>
-          <h2>Оставьте заявку на курс по диагностике BMW в ISTA</h2>
-          <p>
-            Здесь будет встроенная форма GetCourse. Пока кнопка ведет к месту
-            заявки, чтобы структуру сайта можно было проверить до подключения
-            оплаты и юридических документов.
-          </p>
-          <a class="button primary" href="https://www.youtube.com/@Nikita_Sergeievich" target="_blank" rel="noreferrer">
-            Связаться с AutotechNik
-          </a>
-          <small>
-            Перед запуском нужно добавить оферту, политику обработки персональных
-            данных и согласие на обработку данных.
-          </small>
+        <div class="getcourse-embed-slot" data-getcourse-slot>
+          <!-- Сюда вставляется код формы GetCourse -->
         </div>
       </section>
     </main>
@@ -507,6 +498,33 @@
     <div class="screen-lightbox" hidden>
       <button class="screen-lightbox-close" type="button" aria-label="Закрыть увеличенный скриншот">×</button>
       <img src="" alt="" />
+    </div>
+
+    <div class="cookie-banner" data-cookie-banner hidden>
+      <div class="cookie-panel">
+        <div class="cookie-copy">
+          <p class="eyebrow">Cookies</p>
+          <h2>Использование cookies</h2>
+          <p>
+            Мы используем cookie, чтобы сайт работал корректно, формы заявки открывались без ошибок, а встроенные
+            материалы, включая видео YouTube и сервисы GetCourse, отображались правильно.
+          </p>
+          <div class="cookie-details" data-cookie-details hidden>
+            <p>
+              Часть cookie необходима для работы сайта. Дополнительные cookie могут использоваться для внешнего
+              контента, статистики и рекламных инструментов, если такие сервисы подключены.
+            </p>
+            <p>
+              Вы можете принять все cookie, оставить только необходимые или изменить настройки в браузере.
+            </p>
+          </div>
+        </div>
+        <div class="cookie-actions">
+          <button class="button primary" type="button" data-cookie-accept>Принять все</button>
+          <button class="button secondary" type="button" data-cookie-essential>Только необходимые</button>
+          <button class="cookie-settings" type="button" data-cookie-settings aria-expanded="false">Настройки Cookie</button>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
